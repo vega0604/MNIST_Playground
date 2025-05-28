@@ -1,0 +1,20 @@
+[project]
+name = "mnist-playground"
+version = "0.1.0"
+description = "MNIST Playground with pygame UI"
+authors = [
+    {name = "Sebastian Vega",email = "sebasvega4604@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.2.6,<3.0.0)",
+    "pygame (>=2.6.1,<3.0.0)"
+]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
